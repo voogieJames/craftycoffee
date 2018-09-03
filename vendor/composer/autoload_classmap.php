@@ -2272,6 +2272,8 @@ return array(
     'enshrined\\svgSanitize\\data\\TagInterface' => $vendorDir . '/enshrined/svg-sanitize/src/data/TagInterface.php',
     'mikehaertl\\shellcommand\\Command' => $vendorDir . '/mikehaertl/php-shellcommand/src/Command.php',
     'modules\\Module' => $baseDir . '/modules/Module.php',
+    'originas\\contactz\\Contactz' => $vendorDir . '/originas/contactz/src/Contactz.php',
+    'originas\\contactz\\controllers\\DefaultController' => $vendorDir . '/originas/contactz/src/controllers/DefaultController.php',
     'yii\\BaseYii' => $vendorDir . '/yiisoft/yii2/BaseYii.php',
     'yii\\base\\Action' => $vendorDir . '/yiisoft/yii2/base/Action.php',
     'yii\\base\\ActionEvent' => $vendorDir . '/yiisoft/yii2/base/ActionEvent.php',

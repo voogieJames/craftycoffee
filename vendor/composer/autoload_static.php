@@ -37,6 +37,10 @@ class ComposerStaticInit8dbbc369ecb25fee72c17a46ce46ee35
             'yii\\bootstrap\\' => 14,
             'yii\\' => 4,
         ),
+        'o' => 
+        array (
+            'originas\\contactz\\' => 18,
+        ),
         'm' => 
         array (
             'modules\\' => 8,
@@ -177,6 +181,10 @@ class ComposerStaticInit8dbbc369ecb25fee72c17a46ce46ee35
         'yii\\' => 
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2',
+        ),
+        'originas\\contactz\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/originas/contactz/src',
         ),
         'modules\\' => 
         array (
@@ -2634,6 +2642,8 @@ class ComposerStaticInit8dbbc369ecb25fee72c17a46ce46ee35
         'enshrined\\svgSanitize\\data\\TagInterface' => __DIR__ . '/..' . '/enshrined/svg-sanitize/src/data/TagInterface.php',
         'mikehaertl\\shellcommand\\Command' => __DIR__ . '/..' . '/mikehaertl/php-shellcommand/src/Command.php',
         'modules\\Module' => __DIR__ . '/../..' . '/modules/Module.php',
+        'originas\\contactz\\Contactz' => __DIR__ . '/..' . '/originas/contactz/src/Contactz.php',
+        'originas\\contactz\\controllers\\DefaultController' => __DIR__ . '/..' . '/originas/contactz/src/controllers/DefaultController.php',
         'yii\\BaseYii' => __DIR__ . '/..' . '/yiisoft/yii2/BaseYii.php',
         'yii\\base\\Action' => __DIR__ . '/..' . '/yiisoft/yii2/base/Action.php',
         'yii\\base\\ActionEvent' => __DIR__ . '/..' . '/yiisoft/yii2/base/ActionEvent.php',
