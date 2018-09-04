@@ -22,7 +22,7 @@ return array(
     'yii\\bootstrap\\' => array($vendorDir . '/yiisoft/yii2-bootstrap/src'),
     'yii\\' => array($vendorDir . '/yiisoft/yii2'),
     'originas\\contactz\\' => array($vendorDir . '/originas/contactz/src'),
-    'modules\\' => array($baseDir . '/modules'),
+    'modules\\lolmodule\\' => array($baseDir . '/modules/lolmodule/src'),
     'mikehaertl\\shellcommand\\' => array($vendorDir . '/mikehaertl/php-shellcommand/src'),
     'enshrined\\svgSanitize\\' => array($vendorDir . '/enshrined/svg-sanitize/src'),
     'creocoder\\nestedsets\\' => array($vendorDir . '/creocoder/yii2-nested-sets/src'),

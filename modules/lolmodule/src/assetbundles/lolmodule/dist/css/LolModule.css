@@ -1,0 +1,19 @@
+/**
+ * Lol Module module for Craft CMS
+ *
+ * Lol Module CSS
+ *
+ * @author    lol
+ * @copyright Copyright (c) 2018 lol
+ * @link      http://lol.no
+ * @package   LolModule
+ * @since     0.0.1
+ */
+
+body.login{
+    background-color: rebeccapurple;
+}
+
+body.login label, body.login #forgot-password {
+    background-color: #9B59B6;
+}

@@ -43,7 +43,7 @@ class ComposerStaticInit8dbbc369ecb25fee72c17a46ce46ee35
         ),
         'm' => 
         array (
-            'modules\\' => 8,
+            'modules\\lolmodule\\' => 18,
             'mikehaertl\\shellcommand\\' => 24,
         ),
         'e' => 
@@ -186,9 +186,9 @@ class ComposerStaticInit8dbbc369ecb25fee72c17a46ce46ee35
         array (
             0 => __DIR__ . '/..' . '/originas/contactz/src',
         ),
-        'modules\\' => 
+        'modules\\lolmodule\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/modules',
+            0 => __DIR__ . '/../..' . '/modules/lolmodule/src',
         ),
         'mikehaertl\\shellcommand\\' => 
         array (
@@ -2641,7 +2641,9 @@ class ComposerStaticInit8dbbc369ecb25fee72c17a46ce46ee35
         'enshrined\\svgSanitize\\data\\AttributeInterface' => __DIR__ . '/..' . '/enshrined/svg-sanitize/src/data/AttributeInterface.php',
         'enshrined\\svgSanitize\\data\\TagInterface' => __DIR__ . '/..' . '/enshrined/svg-sanitize/src/data/TagInterface.php',
         'mikehaertl\\shellcommand\\Command' => __DIR__ . '/..' . '/mikehaertl/php-shellcommand/src/Command.php',
-        'modules\\Module' => __DIR__ . '/../..' . '/modules/Module.php',
+        'modules\\lolmodule\\LolModule' => __DIR__ . '/../..' . '/modules/lolmodule/src/LolModule.php',
+        'modules\\lolmodule\\assetbundles\\LolModule\\LolModuleAsset' => __DIR__ . '/../..' . '/modules/lolmodule/src/assetbundles/lolmodule/LolModuleAsset.php',
+        'modules\\lolmodule\\variables\\LolModuleVariable' => __DIR__ . '/../..' . '/modules/lolmodule/src/variables/LolModuleVariable.php',
         'originas\\contactz\\Contactz' => __DIR__ . '/..' . '/originas/contactz/src/Contactz.php',
         'originas\\contactz\\controllers\\DefaultController' => __DIR__ . '/..' . '/originas/contactz/src/controllers/DefaultController.php',
         'yii\\BaseYii' => __DIR__ . '/..' . '/yiisoft/yii2/BaseYii.php',
