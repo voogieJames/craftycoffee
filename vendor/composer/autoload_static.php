@@ -54,7 +54,9 @@ class ComposerStaticInit8dbbc369ecb25fee72c17a46ce46ee35
         array (
             'creocoder\\nestedsets\\' => 21,
             'craftcms\\oauth2\\client\\' => 23,
+            'craft\\contactform\\' => 18,
             'craft\\composer\\' => 15,
+            'craft\\ckeditor\\' => 15,
             'craft\\' => 6,
             'cebe\\markdown\\' => 14,
         ),
@@ -206,9 +208,17 @@ class ComposerStaticInit8dbbc369ecb25fee72c17a46ce46ee35
         array (
             0 => __DIR__ . '/..' . '/craftcms/oauth2-craftid/src',
         ),
+        'craft\\contactform\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/craftcms/contact-form/src',
+        ),
         'craft\\composer\\' => 
         array (
             0 => __DIR__ . '/..' . '/craftcms/plugin-installer/src',
+        ),
+        'craft\\ckeditor\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/craftcms/ckeditor/src',
         ),
         'craft\\' => 
         array (
@@ -1938,6 +1948,10 @@ class ComposerStaticInit8dbbc369ecb25fee72c17a46ce46ee35
         'craft\\behaviors\\FieldLayoutBehavior' => __DIR__ . '/..' . '/craftcms/cms/src/behaviors/FieldLayoutBehavior.php',
         'craft\\behaviors\\SessionBehavior' => __DIR__ . '/..' . '/craftcms/cms/src/behaviors/SessionBehavior.php',
         'craft\\cache\\AppPathDependency' => __DIR__ . '/..' . '/craftcms/cms/src/cache/AppPathDependency.php',
+        'craft\\ckeditor\\Field' => __DIR__ . '/..' . '/craftcms/ckeditor/src/Field.php',
+        'craft\\ckeditor\\Plugin' => __DIR__ . '/..' . '/craftcms/ckeditor/src/Plugin.php',
+        'craft\\ckeditor\\assets\\ckeditor\\CkeditorAsset' => __DIR__ . '/..' . '/craftcms/ckeditor/src/assets/ckeditor/CkeditorAsset.php',
+        'craft\\ckeditor\\assets\\field\\FieldAsset' => __DIR__ . '/..' . '/craftcms/ckeditor/src/assets/field/FieldAsset.php',
         'craft\\composer\\Factory' => __DIR__ . '/..' . '/craftcms/cms/src/composer/Factory.php',
         'craft\\composer\\Installer' => __DIR__ . '/..' . '/craftcms/plugin-installer/src/Installer.php',
         'craft\\composer\\InvalidPluginException' => __DIR__ . '/..' . '/craftcms/plugin-installer/src/InvalidPluginException.php',
@@ -1950,6 +1964,12 @@ class ComposerStaticInit8dbbc369ecb25fee72c17a46ce46ee35
         'craft\\console\\controllers\\InstallController' => __DIR__ . '/..' . '/craftcms/cms/src/console/controllers/InstallController.php',
         'craft\\console\\controllers\\MigrateController' => __DIR__ . '/..' . '/craftcms/cms/src/console/controllers/MigrateController.php',
         'craft\\console\\controllers\\SetupController' => __DIR__ . '/..' . '/craftcms/cms/src/console/controllers/SetupController.php',
+        'craft\\contactform\\Mailer' => __DIR__ . '/..' . '/craftcms/contact-form/src/Mailer.php',
+        'craft\\contactform\\Plugin' => __DIR__ . '/..' . '/craftcms/contact-form/src/Plugin.php',
+        'craft\\contactform\\controllers\\SendController' => __DIR__ . '/..' . '/craftcms/contact-form/src/controllers/SendController.php',
+        'craft\\contactform\\events\\SendEvent' => __DIR__ . '/..' . '/craftcms/contact-form/src/events/SendEvent.php',
+        'craft\\contactform\\models\\Settings' => __DIR__ . '/..' . '/craftcms/contact-form/src/models/Settings.php',
+        'craft\\contactform\\models\\Submission' => __DIR__ . '/..' . '/craftcms/contact-form/src/models/Submission.php',
         'craft\\controllers\\AppController' => __DIR__ . '/..' . '/craftcms/cms/src/controllers/AppController.php',
         'craft\\controllers\\AssetTransformsController' => __DIR__ . '/..' . '/craftcms/cms/src/controllers/AssetTransformsController.php',
         'craft\\controllers\\AssetsController' => __DIR__ . '/..' . '/craftcms/cms/src/controllers/AssetsController.php',
